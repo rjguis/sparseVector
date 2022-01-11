@@ -10,7 +10,7 @@ describe('Test suite', function() {
     should(result).eql(29);
   });
   
-  it('should calc dot product when one is large than the other ', function() {
+  it('should calc dot product when one is larger than the other ', function() {
     const sv1 = new SparseVector([0,0,3,0,0,1,0,0,0,9,9,9,9,9,]);
     const sv2 = new SparseVector([0,0,6,9,0,0,1,0,0]);
 
@@ -19,11 +19,7 @@ describe('Test suite', function() {
   });
   
   // Note: In reality i would test more at the extremeties
-})
-
-
-
-
+});
   
 
 
